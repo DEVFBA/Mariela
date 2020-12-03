@@ -3,6 +3,10 @@ body{
     font-family: 'Nerko One', cursive;
 }
 
+p{
+    margin-top: 10px;
+}
+
 .cherry-button{
     margin-top: 20px;
 }
@@ -10,4 +14,8 @@ body{
 .fuerte-declaracion{
     margin-top: 20px;
     color: white;
+}
+
+#cherries {
+    margin-top: 50px;
 }
