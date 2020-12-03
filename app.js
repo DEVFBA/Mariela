@@ -121,7 +121,7 @@ clickHere.addEventListener("click", () =>{
     <div class="row">
         <div class="col-sm">
             <h2>Hooooooooooola Hoooooooooooola bueeeeeenossssss dddííííííííííííaaaaasssss</h2>
-            <h3>¿Sabes? Quise hacer algo original para este ${dayString} de fuertes declaraciones; y bueno, pues realmente lo que te quiero decir es que precisamente el día de hoy ${dayString} TE ELIJO A TI 🍒.</h3>
+            <h3>¿Sabes? Quise hacer algo original para este Viernes (4 de Diciembre) de fuertes declaraciones; y bueno, pues realmente lo que te quiero decir es que precisamente el día de hoy TE ELIJO A TI 🍒.</h3>
             <h3>Estoy seguro que te ves bellísima, lo sé porque cada vez que te veo eres aún más bella y sensual y es que si me lo preguntas, el sencillo hecho de poder mirarte llegar, abrirte la puerta, darte la mano para que bajes de la camioneta y poder admirarte hace que me gustes aún más</h3>
             <h3 id="cherries">🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒</h3>
             <h3>Por cierto, esto puedes consultarlo el día que quieras no sólo aplica para los días Viernes, por lo que si lo checas cualquier otro día te darás cuenta que hoy ${dayString}, ${dayNumber} de ${monthString} del ${year} te sigo eligiendo.</h3>
