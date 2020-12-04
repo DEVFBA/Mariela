@@ -134,7 +134,7 @@ clickHere.addEventListener("click", () =>{
             <br>
             <br>
             <p>PD: Este creo que es el detalle más ñoño y geek que puede existir 🤓🤓 pero como siempre es desde aquí --> ❤</p>
-            <img src="./Te_elijo_Mariela.png">
+            <img id="image-viernes" src="./Te_elijo_Mariela.png">
         </div>
     </div>`
 });
