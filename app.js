@@ -103,6 +103,9 @@ const mes = (monthNumber) => {
         case 11:
             monthString = "Diciembre";
             break;
+
+        default:
+            monthString = "de este mes"
     }
 
     return monthString;
@@ -131,6 +134,7 @@ clickHere.addEventListener("click", () =>{
             <br>
             <br>
             <p>PD: Este creo que es el detalle más ñoño y geek que puede existir 🤓🤓 pero como siempre es desde aquí --> ❤</p>
+            <img src="./Te_elijo_Mariela.png">
         </div>
     </div>`
 });
