@@ -23,3 +23,13 @@ p{
 #image-viernes{
     width: 100%;
 }
+
+#image-5anios{
+    width: 100%;
+}
+
+@media (max-width: 400px){
+    .btn{
+        margin-bottom: 10px;
+    }
+}
