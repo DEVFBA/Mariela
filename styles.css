@@ -29,7 +29,7 @@ p{
 }
 
 @media (max-width: 400px){
-    .btn{
+    .col-sm{
         margin-bottom: 10px;
     }
 }
