@@ -28,9 +28,8 @@ p{
     width: 100%;
 }
 
-@media (max-width: 400px){
-    .col-sm{
-        padding: 5px;
+@media (max-width: 580px){
+    .btn{
         margin-bottom: 10px;
     }
 }
