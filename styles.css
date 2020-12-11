@@ -1,34 +1,39 @@
-body{
+body {
     background-color: #ff1493;
     font-family: 'Nerko One', cursive;
+    color: white;
 }
 
 p{
     margin-top: 10px;
 }
 
-.cherry-button{
+.cherry-button {
     margin-top: 20px;
 }
 
-.fuerte-declaracion{
+.fuerte-declaracion {
     margin-top: 20px;
     color: white;
+}
+
+#subtitulo {
+    margin-top: 15px;
 }
 
 #cherries {
     margin-top: 50px;
 }
 
-#image-viernes{
+#image-viernes {
     width: 100%;
 }
 
-#image-5anios{
+#image-5anios {
     width: 100%;
 }
 
-@media (max-width: 580px){
+@media (max-width: 580px) {
     .btn{
         margin-bottom: 10px;
     }
