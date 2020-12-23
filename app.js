@@ -5,6 +5,7 @@ const fuerteDeclaracion                 = document.getElementById("fuerte-declar
 const buttonDec11                       = document.getElementById("viernes11Diciembre");
 const subtitulo                         = document.getElementById("subtitulo");
 const buttonDec18                       = document.getElementById("viernes18Diciembre");
+const buttonDec25                       = document.getElementById("viernes25Diciembre");
 
 let date                                = new Date();
 let day                                 = date.getDay();
@@ -252,6 +253,25 @@ buttonDec18.addEventListener("click", () => {
                 <h3>I'm still looking up, I'm still looking up" 🎶🎵</h3>
                 <br>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/O1-4u9W-bns" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>`
+});
+
+buttonDec25.addEventListener("click", () => {
+    let thisDate                         = new Date();
+    let thisHour                         = thisDate.getHours();
+    let thisMinute                       = thisDate.getMinutes();
+    let thisMinuteLength                 = thisMinute.toString().length;
+
+    return fuerteDeclaracion.innerHTML = `
+        <div class="row">
+            <div class="col-sm">
+                <h2>Hooooooooooola Hoooooooooooola ${saludo}</h2>
+                <h3>En este Viernes de Fuertes Declaraciones Navideño; además obviamente de desearte Feliz Navidad quiero aprovechar para dar gracias a Dios por permitirme conocerte una Navidad más, no sé que vaya a pasar pero creeme que estoy muy agradecido y el mejor regalo de Navidad que puedo tener sencillamente es conocerte.</h3>
+                <br>
+                <h3>Así que sencillamente Feliz Navidad, mis mejores deseos.</h3>
+                <br>
+                <h3>Hoy, siendo las ${thisHour}:${addZeroToMinute(thisMinute, thisMinuteLength)} del ${dayString}, ${dayNumber} de ${monthString} del ${year} te sigo eligiendo.</h3>
             </div>
         </div>`
 });
