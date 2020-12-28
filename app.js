@@ -6,6 +6,8 @@ const buttonDec11                       = document.getElementById("viernes11Dici
 const subtitulo                         = document.getElementById("subtitulo");
 const buttonDec18                       = document.getElementById("viernes18Diciembre");
 const buttonDec25                       = document.getElementById("viernes25Diciembre");
+const buttonJan01                       = document.getElementById("viernes01Enero");
+const buttonSonrisa                     = document.getElementById("laMejorSonrisa");
 
 let date                                = new Date();
 let day                                 = date.getDay();
@@ -272,6 +274,48 @@ buttonDec25.addEventListener("click", () => {
                 <h3>Así que sencillamente Feliz Navidad, mis mejores deseos.</h3>
                 <br>
                 <h3>Hoy, siendo las ${thisHour}:${addZeroToMinute(thisMinute, thisMinuteLength)} del ${dayString}, ${dayNumber} de ${monthString} del ${year} te sigo eligiendo.</h3>
+            </div>
+        </div>`
+});
+
+buttonJan01.addEventListener("click", () => {
+    let thisDate                         = new Date();
+    let thisHour                         = thisDate.getHours();
+    let thisMinute                       = thisDate.getMinutes();
+    let thisMinuteLength                 = thisMinute.toString().length;
+
+    return fuerteDeclaracion.innerHTML = `
+        <div class="row">
+            <div class="col-sm">
+                <h2>Hooooooooooola Hoooooooooooola ${saludo}</h2>
+                <h3>Inicio de Año Nuevo y en Viernes, coincidencias de la vida jeje.</h3>
+                <h3>Haya una Fuerte Declaración en este Viernes tan especial, y tan único y es mi primer propósito del año 2021. El año pasado tuve un propósito que fue que tú y y estemos bien sea juntos o no; y espero haberlo logrado, por lo menos así lo creo y fue por ello mi decisión de dejar de intentar.... Sabes? de verdad tengo miedo de estropearlo por seguir buscando el final perfecto a todo esto y si te soy honesto lo qye más deseo es que esto se vuelva sencillamente un bonito recuerdo.</h3>
+                <h3>Lo que me lleva a mi primer propósito de este año Mariela, y que siendo Viernes podría volverse una fuerte declaración....</h3>
+                <h3>Mi propósito es...... QUE SEAS FELIZ MARIELA, y no me importa lo que cueste en verdad deseo que seas feliz, porque en serio lo mereces. Dios, en ti me dió un regalo de verdad único y quizá en su ironía su plan siempre fue que seas solo un viaje en mi vida; un viaje que por cierto volvería a realizar si la vida me lo permitiera, porque fue un viaje en serio hermoso.</h3>
+                <h3>Y hablo de ironías porque sabes bien que todo indicaba que no había razón para conocernos; más sin embargo, fue así, nos cruzamos por alguna razón. Si es cierto que tú pedías paz y llegue yo, y que yo no me quería volver a enamorar y apareciste en mi puerta; creo entonces que ha sido el juego más irónico que Dios ha jugado conmigo. Sé que en algún momento encontraré la razón por la cual todo sencillamente fue así, por la cual me la quise jugar aún sabiendo el riesgo. Y es que vales cada uno de los riesgos que tomé, vales incluso este sentimiento que no sé cómo describir más que quizá una mezcla entre decepción y alegría.</h3>
+                <h3>Decepción, porque mi ego no termina de entender qué me faltó para poder hacerte sentir algo por mí, qué fue lo que me faltó para poder ganarme tu mejor versión.</h3>
+                <h3>Y alegría porque aunque hoy sé cual fué el resultado de jugármela, al menos no me quedé con la duda; y estoy agradecido contigo completamente por haber hecho el esfuerzo de darme la oportunidad de conquistarte. No pude, perdí, pero en verdad dejé el corazón en cada detalle y mensaje que te hice, en cada beso que pude darte, en cada caricia y las pocas veces que pudimos hacer el amor.</h3>
+                <h3>Por eso es que mi propósito es que seas feliz y sé que incluso ya lo eres, por eso sé que te aguarda una felicidad mayor en la vida. Una que ni te imaginas, y es que estoy seguro que allá afuera existe ese alguien que te motivará a ser tu mejor versión, y es que no habrá nadie que te ame como yo, sino que te amará aún más y que te demostrará cada día de tu vida que eres ÚNICA.</h3>
+                <h3>Mariela (Cereza 🍒) TE AMO y por eso lo que sea que vaya a suceder, o que ya haya sucedido si es que esto lo llegas a leer después, lo entiendas. Alguién un día me dijo que la mayor prueba de amor que puedes hacer a una persona, irónicamente, es una muy dolorosa pero es la más auténtica porque involucra no solo el amor que le tienes a un tercero sino el amor propio.</h3>
+                <h3>Los nueve deseos que te hice el año pasado fueron de corazón y sé que llegarán cargados de bendiciones, y nunca va a faltar el día que te envíe porras, buenas vibras y tal vez en algún momento tan solo un susurro a tu oído desde donde este diciéndote "Hoy será el mejor día de tu vida"</h3>
+                <h3>Así que...... sencillamente SE FELIZ y que cada Año Nuevo en tu vida sea mucho mejor que el anterior.</h3>
+                <br>
+                <br>
+                <h3>Hoy, siendo las 00:00 del Viernes, 01 de Enero del 2021 te sigo eligiendo y porque te elijo Mariela es que decido sencillamente....... permitir que seas aún más FELIZ.</h3>
+            </div>
+        </div>`
+});
+
+buttonSonrisa.addEventListener("click", () => {
+    let thisDate                         = new Date();
+    let thisHour                         = thisDate.getHours();
+    let thisMinute                       = thisDate.getMinutes();
+    let thisMinuteLength                 = thisMinute.toString().length;
+
+    return fuerteDeclaracion.innerHTML = `
+        <div class="row">
+            <div class="col-sm">
+                <img class="img-fluid" src="./La_Mejor_Sonrisa.jpg"></img>
             </div>
         </div>`
 });
